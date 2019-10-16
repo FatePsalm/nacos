@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: test
+nacos:
+  config:
+    server-addr: 192.168.186.130:8848

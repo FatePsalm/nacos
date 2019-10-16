@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.186.130:8848
+        namespace: 22254521-17a7-42e5-a952-12de749913f9
+        ext-config[0]:
+          data-id: wm-mq-rocketmq.yaml
+          refresh: true
+        ext-config[1]:
+          data-id: wm-mq-dubbo.yaml
+          refresh: true
